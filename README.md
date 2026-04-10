@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚗 AI Best Route Finder
 
-## Getting Started
+AI Best Route Finder is a web application that helps users find the most efficient route between two locations. It uses map-based routing along with AI insights to suggest better travel options based on distance, time, and transport mode.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🗺️ Interactive map for route visualization  
+- 📍 Select start and destination locations  
+- 🚀 Generate optimal routes instantly  
+- 🤖 AI-powered route suggestions  
+- 📊 Displays distance, time, and estimated cost  
+- ▶️ Start / Stop travel mode  
+- 📱 Responsive design (mobile + desktop)  
+- 📌 Mobile-friendly directions panel  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Built With
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js  
+- Tailwind CSS  
+- Leaflet & Leaflet Routing Machine  
+- OpenRouter API   
