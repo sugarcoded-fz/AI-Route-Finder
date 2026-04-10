@@ -33,9 +33,9 @@ const MapArea = ({ routeData, setRouteStats, transportMode, showDirections }) =>
         scrollWheelZoom={true}
         className="w-full h-full"
       >
-        
+
         <TileLayer
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+          url={`https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${process.env.NEXT_PUBLIC_STADIA_API_KEY}`}
         />
 
         {/* Default marker for Gujranwala (optional) */}
